@@ -1,0 +1,23 @@
+.wrapper{
+    display: grid;
+    align-items: center;
+}
+
+
+.uni{
+    border-radius: 5px;
+    width: 25%;
+    outline: none;
+    background-color: #7c7c7c;
+    color: #f4ebe8;
+    transition: ease-in-out  .5s;   
+}
+
+.uni:hover{
+    background-color: #2b303a;
+    transition: ease-in-out  .5s;    
+}
+
+.show-westminster{
+    border: 2px solid #2b303a;
+}
