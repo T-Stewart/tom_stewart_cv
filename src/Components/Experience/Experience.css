@@ -1,11 +1,6 @@
-.wrapper {
-  display: grid;
-  align-items: center;
-}
-
-.job {
+.link {
   border-radius: 5px;
-  width: 40%;
+  width: 30%;
   outline: none;
   color: #f4ebe8;
   transition: ease-in-out 0.5s;
@@ -13,14 +8,13 @@
   background: #7c7c7c;
   font-weight: 100;
   font-size: small;
-  padding: 30px;
+  padding: 10px;
   text-transform: uppercase;
   border-radius: 6px;
   display: inline-block;
-  font-size: small;
 }
 
-.job:hover {
+.link:hover {
   background: #2b303a;
   transition: ease-in-out 0.5s;
   font-weight: 200;
@@ -30,14 +24,8 @@
 }
 
 @media only screen and (max-width: 780px) {
-  .job:hover {
+  .link:hover {
+    font-weight: 100;
     letter-spacing: normal;
-    font-weight: normal;
   }
-}
-
-.show-card {
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
 }

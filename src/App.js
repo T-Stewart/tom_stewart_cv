@@ -4,7 +4,7 @@ import Layout from "./Components/Layout/Layout"
 function App() {
   return (
     <div className="App">
-      <h1>Tom Stewart CV</h1>
+      <h1 className="title">Tom Stewart CV</h1>
      <Layout/>
     </div>
   );

@@ -1,9 +1,24 @@
-*{
-  background-color: #f4ebe8; 
+* {
+  background-color: #f4ebe8;
 }
 
 .App {
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #2b303a;
+}
+.title {
+  text-decoration: underline;
+}
+.text {
+  color: #7c7c7c;
+  font-weight: 300;
 }
 
-
+.about-text {
+  color: #7c7c7c;
+  font-weight: 300;
+  text-transform: none;
+  margin: 1em;
+}
