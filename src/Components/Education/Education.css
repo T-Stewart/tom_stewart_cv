@@ -38,6 +38,7 @@
   .uni {
     letter-spacing: normal;
     font-weight: 50;
+    width: 30%;
   }
 }
 .show-card {
