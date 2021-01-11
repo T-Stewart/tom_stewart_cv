@@ -34,7 +34,12 @@
     font-weight: normal;
   }
 }
-
+@media only screen and (max-width: 80px) {
+  .uni {
+    letter-spacing: normal;
+    font-weight: 50;
+  }
+}
 .show-card {
   align-items: center;
   justify-content: center;
