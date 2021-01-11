@@ -13,6 +13,12 @@
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .modal-content {
+    font-size: x-small;
+  }
+}
+
 .close {
   color: Black;
   float: right;
